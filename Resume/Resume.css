@@ -1,0 +1,116 @@
+body{
+    background: #1A1817 ;
+}
+.maindiv{
+    background:#EF7054;
+    display:flex;
+    justify-content: space-around;
+    margin:5%;
+}
+.leftdiv{
+    background:#A76197 ;
+    margin:5%;
+    border-radius: 4%;
+    box-shadow: 4px 4px 4px 4px;
+    width: 25%;
+    text-align: center;
+    height:45%;
+}
+.rightdiv{
+    background:#4F9CD5; 
+    margin:5%;
+    border-radius:4%;
+    box-shadow: 4px 4px 4px 4px;
+    width:60%;
+    padding:2%;
+}
+img{
+    border-radius: 4%;
+    margin:4%;
+    width:50%;
+    height:30%;
+}
+/*mobile view*/
+@media screen and (min-width:320px) and (max-width:480px){
+    body{
+        background:#8CABC2 ;
+    }
+    .maindiv{
+        background:#C75959 ;
+        display:inline-block;
+        justify-content: space-around;
+        margin:5%;
+    }
+    .leftdiv{
+        background:#EE05F1  ;
+        margin:5%;
+        border-radius: 4%;
+        box-shadow: 4px 4px 4px 4px;
+        width: 90%;
+        text-align: center;
+        height:45%;
+    }
+    .rightdiv{
+        background:#EE05F1; 
+        margin:5%;
+        border-radius:4%;
+        box-shadow: 4px 4px 4px 4px;
+        width:90%;
+        padding:2%;
+        word-wrap: break-word;
+    }
+    img{
+        border-radius: 4%;
+        margin:4%;
+        width:50%;
+        height:20%;
+    }
+    table{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p{
+        font-size: 25px;
+    }
+}
+/*tablet view*/
+@media screen and (min-width:481px) and (max-width:720px){
+    body{
+        background:#8CABC2 ;
+    }
+    .maindiv{
+        background:#C75959 ;
+        display:inline-block;
+        justify-content: space-around;
+        margin:5%;
+    }
+    .leftdiv{
+        background:#EE05F1  ;
+        margin:5%;
+        border-radius: 4%;
+        box-shadow: 4px 4px 4px 4px;
+        width: 90%;
+        text-align: center;
+        height:45%;
+        word-wrap: break-word;
+    }
+    .rightdiv{
+        background:#EE05F1; 
+        margin:5%;
+        border-radius:4%;
+        box-shadow: 4px 4px 4px 4px;
+        width:90%;
+        padding:2%;
+        word-wrap: break-word;
+    }
+    img{
+        border-radius: 4%;
+        margin:4%;
+        width:50%;
+        height:20%;
+    }
+    table{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
