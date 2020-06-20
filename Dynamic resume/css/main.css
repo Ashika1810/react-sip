@@ -1,0 +1,18 @@
+.main{
+    width:80%;
+    margin:0% auto;
+    display: flex;
+    flex-grow: wrap;
+}
+.article1{
+    width:25%;
+    text-align: center;
+    background-color: bisque;
+    box-shadow: 4px 4px 4px 4px;
+}
+/*media for mobile view*/
+@media (min-device-width:320px) and (max-device-width:480px){
+    .article1{
+        width:100%
+    }
+}
